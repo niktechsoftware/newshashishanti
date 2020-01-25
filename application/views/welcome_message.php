@@ -1,92 +1,7 @@
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Shashi Shanti</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="<?php echo base_url();?>assets/https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/animate.css">
-    
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/magnific-popup.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/aos.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/ionicons.min.css">
-
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery.timepicker.css">
-
-    
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/flaticon.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/icomoon.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
-  </head>
-  <body>
-    <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
-    	<div class="container">
-    		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
-    			<div class="col-lg-2 pr-4 align-items-center">
-		    		<a class="navbar-brand" href="<?php echo base_url();?>index.php/welcome/index.html">Shashi<span>Shanti</span>
-
-
-
-		    		</a>
-	    		</div>
-	    		<div class="col-lg-10 d-none d-md-block">
-		    		<div class="row d-flex">
-			    		<div class="col-md-4 pr-4 d-flex topper align-items-center">
-			    			<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-						    <span class="text">Address: Shashi Shanti Dental & Oral Implant Care Center
-Aastbhuji colony Baribag, Lanka,
-(300 Meter inside from main road)
-Ghazipur, U.P.</span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">shashishantidental@gmail.com
-choubey.rajkumar@gmail.com</span>
-					    </div>
-					    <div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">Phone: +91 548-2222551/+91 9415241551/+91 9838241551</span>
-					    </div>
-				    </div>
-			    </div>
-		    </div>
-		  </div>
-    </nav>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <p class="button-custom order-lg-last mb-0"><a href="appointment.html" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="<?php echo base_url();?>index.php/welcome/index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url();?>assets/about.html" class="nav-link">About Us</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url();?>assets/service.html" class="nav-link">SERVICES</a></li>
-	        		
-                <li class="nav-item"><a href="<?php echo base_url();?>assets/oralhealth.html" class="nav-link">Oral Health</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url();?>assets/smilegallery.html" class="nav-link">Smile Gallery</a></li>
-	        	<li class="nav-item"><a href="<?php echo base_url();?>assets/Contact.html" class="nav-link">Contact Us</a></li>
-	          <li class="nav-item"><a href="<?php echo base_url();?>assets//inquery.html" class="nav-link">Inquary</a></li>
-	          <li class="nav-item"><a href="<?php echo base_url();?>assets//.html" class="nav-link">Admin Panel</a></li>
-
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
-    
+<?php $this->load->view("header");?>
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(<?php echo base_url();?>img/240_F_207766668_qQN0YbSwIcSUuhDdJWBhNmHLq0G0sdLY.jpg);" data-stellar-background-ratio="0.5">
+      <div class="slider-item" style="background-image:url(<?php echo base_url();?>assets/img/ss.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -99,7 +14,7 @@ choubey.rajkumar@gmail.com</span>
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(<?php echo base_url();?>img/240_F_288178061_lRlYH5KS4jYS6xX1zc5yRn4AV598c6GD.jpg);">
+      <div class="slider-item" style="background-image:url(<?php echo base_url();?>assets/img/240_F_288178061_lRlYH5KS4jYS6xX1zc5yRn4AV598c6GD.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -133,7 +48,7 @@ choubey.rajkumar@gmail.com</span>
             		<span class="flaticon-ambulance"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Emergency Care</h3>
+                <h3 class="heading">Appointment</h3>
                 <p>Setting Emergency Care with the us is just a click away. All we need is some information about you. We will get back to you as soon as possible.</p>
               </div>
             </div>    
@@ -168,7 +83,7 @@ choubey.rajkumar@gmail.com</span>
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(<?php echo base_url();?>img/rajkumar.png);">
+					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(<?php echo base_url();?>assets/img/rajkumar.png);">
 					</div>
 					<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
 	          <div class="heading-section mb-5">
@@ -187,7 +102,7 @@ Our mission is to provide you with the finest possible dental care, in the most 
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 										<div class="text">
 											<h3>Primary Care</h3>
-											<p> A dentist's job is to use preventative care and patient education to preclude the need for treatments and instead promote a healthy smile for life..</p>
+											<p> A dentist's job is to use preventative care and patient education to preclude the need for treatments.</p>
 										</div>
 									</div>
 								</div>
@@ -196,7 +111,7 @@ Our mission is to provide you with the finest possible dental care, in the most 
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 										<div class="text">
 											<h3>Cosmetic Dentistry</h3>
-											<p>The broken, chipped, and discolored parts of teeth through the use of a special composite material.</p>
+											<p>The broken and discolored parts of teeth through the use of a special composite material.</p>
 										</div>
 									</div>
 								</div>
@@ -214,7 +129,7 @@ Our mission is to provide you with the finest possible dental care, in the most 
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 										<div class="text">
 											<h3>Dental X-Ray</h3>
-											<p>The dosage of X-ray radiation received by a dental patient is typically small (around 0.150 mSv for a full mouth series, according to the American Dental Association website)</p>
+											<p>The dosage of X-ray radiation received by a dental patient is typically small.</p>
 										</div>
 									</div>
 								</div>
@@ -241,7 +156,7 @@ Our mission is to provide you with the finest possible dental care, in the most 
 			</div>
 		</section>
 
-    <section class="ftco-section">
+    <!--<section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -272,13 +187,13 @@ Our mission is to provide you with the finest possible dental care, in the most 
 
 	              <div class="tab-pane py-2 fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 	              	<div class="row departments">
-	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
+<!--div class="col-md-2 order-lg-last d-flex align-items-stretch">
 	              			<div class="img d-flex align-self-stretch" style="background-image: url(<?php echo base_url();?>img/gd.jpg);"></div>
 	              		</div>
 	              		<div class="col-lg-8">
 	              			<h2>General Dentistry</h2>
 	              			<p>General dentistry is the branch of medicine involving the care and prevention of oral health conditions, diseases and disorders. A dentist's job is to use preventative care and patient education to preclude the need for treatments and instead promote a healthy smile for life. Dentists are also responsible for diagnosing conditions that affect the mouth, teeth, gums and jaws, as well as develop the most effective treatment plan with the patient's best interests in mind.General dentistry is best when patients use it for preventive care, rather than for corrective treatment. By visiting a dentist and his or her team of hygienists and dental technicians twice annually for cleaning and examination, patients can avoid decay and identify potential oral health conditions, such as periodontal disease, in their earliest stages.</p>
-	              			<p>General dentists typically do not focus on any particular specialty, instead opting to provide generalized dental care to patients. In some cases, general dentists may refer a patient to a specialty provider for care or treatment that is beyond the scope of general dentistry. However, most general dentists are capable of providing complete examinations, cleanings, root canals, restorations, extractions and tooth prosthetics.
+	              			<!--<p>General dentists typically do not focus on any particular specialty, instead opting to provide generalized dental care to patients. In some cases, general dentists may refer a patient to a specialty provider for care or treatment that is beyond the scope of general dentistry. However, most general dentists are capable of providing complete examinations, cleanings, root canals, restorations, extractions and tooth prosthetics.
 	              				
 	              			</p>
 											<div class="row mt-5 pt-2">
@@ -639,7 +554,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -655,7 +570,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/img/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -669,7 +584,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/person_2.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/img/person_2.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -683,7 +598,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/person_3.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/img/person_3.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -697,7 +612,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/person_4.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/img/person_4.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -711,7 +626,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(<?php echo base_url();?>assets/img/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -729,7 +644,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(<?php echo base_url();?>assets/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <!--<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(<?php echo base_url();?>assets/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 py-5 pr-md-5">
@@ -832,7 +747,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
     	</div>
     </section>
 
-    <section class="ftco-section bg-light">
+   <section class="ftco-section bg-light">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -941,7 +856,7 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
                 </div>
               </div>
             </div>
-          </div>-->
+          </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
               <a href="blog-single.html" class="block-20" style="background-image: url('<?php echo base_url();?>assets/images/image_2.jpg');">
@@ -988,144 +903,16 @@ Your dentist can evaluate your case and tell you if you are a candidate for dent
           </div>
         </div>
 			</div>
-		</section>
+		</section>-->
 
 		
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2 logo">Shanti<span>Shanti</span></h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-            <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Shashi Shanti Dental & Oral Implant Care Center
-Aastbhuji colony Baribag, Lanka,
-(300 Meter inside from main road)
-Ghazipur, U.P.</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"> +91 9415241551</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@shashishanti.com
-</span></a></li>
-	              </ul>
-	            </div>
-
-	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-5 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About Us</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Oral Health</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Smile Gallery</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact Us</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Inquery</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Admin Panel</a></li>
-
-
-              </ul>
-            </div>
-            <!--<div class="ftco-footer-widget mb-5 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>General Dentistry</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cosmetic Dentistry</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Sedation Dentistry</a></li>
-                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cancer Screenings</a></li>
-                
-                
-
-              </ul>
-            </div>-->
-          </div>
-          <!--<div class="col-md">
-            <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-5 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(<?php echo base_url();?>assets/images/.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>-->
-          <div class="col-md">
-          	<div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Opening Hours</h2>
-            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
-            </div>
-            <div class="ftco-footer-widget mb-5">
-            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            	Copyright  &copy;  <script>document.write(new Date().getFullYear());</script> Shashi Shanti Dental & Oral Implant Care Center <a href="https://colorlib.com" target="_blank"></a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+  
     
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+ <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.easing.1.3.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.waypoints.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.stellar.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/owl.carousel.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/aos.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.animateNumber.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/bootstrap-datepicker.js"></script>
-  <script src="<?php echo base_url();?>assets/js/jquery.timepicker.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/scrollax.min.js"></script>
-  <script src="<?php echo base_url();?>assets/https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="<?php echo base_url();?>assets/js/google-map.js"></script>
-  <script src="<?php echo base_url();?>assets/js/main.js"></script>
-    
-  </body>
-</html>
+ 
+<?php $this->load->view("footer");?>

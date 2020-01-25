@@ -21,6 +21,39 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function aboutus()
+	{
+		$this->load->view('aboutus');
+	}
+     public function service()
+	{
+		$this->load->view('service');
+	}
+	public function oralhealth()
+	{
+		$this->load->view('oralhealth');
+	}
+	public function smilegallery()
+	{
+		$this->load->view('smilegallery');
+	}
+     public function contactus()
+	{
+		$this->load->view('contactus');
+	}
+	public function inquiry()
+	{
+		$this->load->view('inquiry');
+	}
+     public function adminpannel()
+	{
+		$this->load->view('adminpannel');
+	}
+
+
+
+
+
 }
 
 /* End of file welcome.php */
